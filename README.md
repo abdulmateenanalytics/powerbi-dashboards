@@ -31,7 +31,7 @@ This Power BI dashboard provides insights into utility consumption across differ
 - Regional and period-based filtering  
 
 ## 📸 Preview
-![Utilities Dashboard](utilities_dashboard.png)
+![Utilities Dashboard](Utilities_dashboard.png)
 
 ## Insights
 - Identifies areas where utility consumption exceeds budget  
