@@ -1,44 +1,63 @@
-# 📊 Sales Performance Dashboard 
+# 📊 Power BI Dashboard Portfolio
+
+This repository showcases my Power BI dashboards created during my learning journey.
+
+---
+
+# 🎓 AdventureWorks Dashboard (Certification Project)
 
 ## Overview
-📌 This dashboard provides insights into sales performance, targets vs actuals, and regional trends.
+This dashboard was developed during my Power BI certification (Udemy – 15 hours course). It demonstrates advanced Power BI concepts and real-world dashboard design techniques.
 
-## Preview
-![Sales Dashboard](Sales_Dashboard.png)
+## Skills Applied
+- Bookmarks & navigation  
+- Drill-through  
+- Advanced slicers  
+- Multi-card visuals  
+- Image-based slicers  
+- DAX & data modeling  
+- Advanced dashboard design  
 
-## File
-You can download the Power BI `.pbix` file from this repository.
+## 📸 Preview
+![AdventureWorks Dashboard](AdventureWorks/udemy_dashboard.png)
 
-## Tools Used
-- Power BI
-- DAX
-- Data Modeling
-##
+---
 
+# ⚡ Electric Metering Health Monitoring System
 
+## Overview
+This dashboard provides a comprehensive view of electrical system performance, including energy consumption, voltage stability, current load, and power factor efficiency.
 
+## Note
+This dashboard layout is inspired by HARMA Qatar.  
+The dataset used in this project was generated using AI tools.
+
+## 📸 Preview
+![Electric Metering](Electric-Metering/Electric_Meters_Health_Monitoring_System.png)
+
+---
+
+# 📈 Sales Dashboard
+
+## Overview
+This dashboard provides insights into sales performance, including revenue trends, targets vs actuals, and regional analysis.
+
+## 📸 Preview
+![Sales Dashboard](Sales/Sales_Dashboard.png)
+
+---
 
 # ⚡ Utilities Dashboard
 
 ## Overview
-This Power BI dashboard provides insights into utility consumption across different categories including electricity, gas, water, and chilled water. It compares actual usage with budget values to highlight performance and efficiency.
-
-## Key Features
-- Monthly consumption analysis  
-- Actual vs Budget comparison  
-- Variance (%) tracking  
-- Utility-wise breakdown (Electricity, Gas, Water, Chilled Water)  
-- Regional and period-based filtering  
+This dashboard provides insights into utility consumption including electricity, gas, water, and chilled water with budget comparison.
 
 ## 📸 Preview
-![Utilities Dashboard](Utilities_dashboard.png)
+![Utilities Dashboard](Utilities/Utilities_dashboard.png)
 
-## Insights
-- Identifies areas where utility consumption exceeds budget  
-- Helps monitor efficiency across utilities  
-- Supports decision-making for cost optimization  
+---
 
-## Tools Used
+## 🛠 Tools Used
 - Power BI  
 - DAX  
 - Data Modeling  
