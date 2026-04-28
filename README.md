@@ -4,7 +4,7 @@
 This Power BI dashboard shows revenue, profit, orders, return rate, product performance, and regional analysis.
 
 ## Preview
-![Sales Dashboard](Sales%20Dashboard.png)
+![Sales Dashboard](Sales_Dashboard.png)
 
 ## File
 You can download the Power BI `.pbix` file from this repository.
