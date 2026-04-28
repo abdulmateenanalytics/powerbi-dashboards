@@ -29,7 +29,7 @@ This dashboard was developed during my Power BI certification (Udemy – 15 hour
 This dashboard provides a comprehensive view of electrical system performance, including energy consumption, voltage stability, current load, and power factor efficiency.
 
 ## Note
-This dashboard layout is inspired by HARMA Qatar.  
+This dashboard layout is inspired by Qatar General Electricity & Water Corporation.  
 The dataset used in this project was generated using AI tools.
 
 ## 📸 Preview
