@@ -1,90 +1,281 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Abdul Mateen | Power BI Portfolio</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Abdul Mateen | Power BI Portfolio</title>
 
-    <style>
-        body {
-            font-family: Arial;
-            background-color: #f5f7fa;
-            margin: 0;
-        }
+  <style>
+    * {
+      box-sizing: border-box;
+    }
 
-        .header {
-            background-color: #0f172a;
-            color: white;
-            padding: 30px;
-            text-align: center;
-        }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f4f7fb;
+      color: #1f2937;
+    }
 
-        .header h1 {
-            margin: 0;
-        }
+    header {
+      background: linear-gradient(135deg, #0f172a, #1e3a8a);
+      color: white;
+      padding: 50px 25px;
+      text-align: center;
+    }
 
-        .container {
-            padding: 30px;
-        }
+    header h1 {
+      margin: 0;
+      font-size: 42px;
+    }
 
-        .card {
-            background: white;
-            padding: 20px;
-            margin-bottom: 20px;
-            border-radius: 10px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-        }
+    header p {
+      font-size: 18px;
+      margin-top: 10px;
+      color: #dbeafe;
+    }
 
-        .card img {
-            width: 100%;
-            border-radius: 8px;
-        }
+    .intro {
+      max-width: 1050px;
+      margin: 30px auto;
+      padding: 25px;
+      background: white;
+      border-radius: 14px;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+      line-height: 1.7;
+    }
 
-        .title {
-            font-size: 20px;
-            font-weight: bold;
-            margin-top: 10px;
-        }
+    .container {
+      max-width: 1150px;
+      margin: 0 auto 50px auto;
+      padding: 0 20px;
+    }
 
-        .desc {
-            color: #555;
-            margin-top: 10px;
-        }
-    </style>
+    .project {
+      background: white;
+      margin-bottom: 35px;
+      border-radius: 16px;
+      overflow: hidden;
+      box-shadow: 0 4px 18px rgba(0,0,0,0.10);
+    }
+
+    .project img {
+      width: 100%;
+      display: block;
+      border-bottom: 1px solid #e5e7eb;
+    }
+
+    .content {
+      padding: 25px;
+    }
+
+    .content h2 {
+      margin-top: 0;
+      color: #0f172a;
+      font-size: 26px;
+    }
+
+    .tag {
+      display: inline-block;
+      background: #e0f2fe;
+      color: #0369a1;
+      padding: 6px 12px;
+      border-radius: 20px;
+      font-size: 13px;
+      font-weight: bold;
+      margin-bottom: 12px;
+    }
+
+    .content p {
+      line-height: 1.7;
+      color: #374151;
+    }
+
+    ul {
+      padding-left: 22px;
+      line-height: 1.7;
+    }
+
+    .buttons {
+      margin-top: 18px;
+    }
+
+    .buttons a {
+      display: inline-block;
+      text-decoration: none;
+      background: #2563eb;
+      color: white;
+      padding: 10px 16px;
+      border-radius: 8px;
+      margin-right: 10px;
+      margin-top: 8px;
+      font-weight: bold;
+    }
+
+    .buttons a.secondary {
+      background: #0f172a;
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px;
+      background: #0f172a;
+      color: #cbd5e1;
+    }
+
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 32px;
+      }
+
+      .content h2 {
+        font-size: 22px;
+      }
+    }
+  </style>
 </head>
 
 <body>
 
-<div class="header">
-    <h1>Abdul Mateen</h1>
-    <p>Power BI Developer | Data Analyst</p>
-</div>
+<header>
+  <h1>Abdul Mateen</h1>
+  <p>Power BI Developer | Data Analyst | Dashboard Design</p>
+</header>
+
+<section class="intro">
+  <h2>Power BI Dashboard Portfolio</h2>
+  <p>
+    This portfolio showcases selected Power BI dashboards created using sample, generated, and project-based datasets.
+    Due to company data security policies, I cannot share my real client or company data publicly.
+    However, these dashboards reflect my practical experience in data analysis, Power Query, DAX, data modeling,
+    dashboard design, and business reporting.
+  </p>
+</section>
 
 <div class="container">
 
-    <div class="card">
-        <img src="PDF-Automation/POS_dashboard.png">
-        <div class="title">PDF Automation Dashboard</div>
-        <div class="desc">
-            Automated solution to handle changing PDF formats and build a stable Power BI pipeline.
-        </div>
+  <div class="project">
+    <img src="PDF-Automation/POS_dashboard.png" alt="PDF Automation Dashboard">
+    <div class="content">
+      <span class="tag">Freelance Project</span>
+      <h2>PDF Data Automation & Power BI Query Stabilization</h2>
+      <p>
+        This real-world freelance project focused on fixing recurring Power BI query failures caused by changing PDF report formats.
+        The client was downloading weekly PDF reports from a website and storing them in OneDrive folders for reporting.
+      </p>
+      <p>
+        I first performed root cause analysis to identify exactly where and why the Power Query steps were breaking.
+        The issue was that different PDF structures were being processed through one transformation logic.
+        I redesigned the solution by creating separate queries for each PDF format group and then appending the cleaned outputs
+        into one final consolidated dataset.
+      </p>
+      <ul>
+        <li>Root cause analysis of broken Power Query steps</li>
+        <li>Separate query logic for different PDF structures</li>
+        <li>Folder-based PDF data processing</li>
+        <li>Append queries into one final reporting dataset</li>
+        <li>Reduced manual troubleshooting and improved stability</li>
+      </ul>
+      <div class="buttons">
+        <a href="PDF-Automation/POS_Dashboard.pbix">Download PBIX</a>
+      </div>
     </div>
+  </div>
 
-    <div class="card">
-        <img src="AdventureWorks/adventureworks.png">
-        <div class="title">AdventureWorks Dashboard</div>
-        <div class="desc">
-            Built during certification with advanced Power BI features including bookmarks and drill-through.
-        </div>
+  <div class="project">
+    <img src="AdventureWorks/udemy_dashboard.png" alt="AdventureWorks Dashboard">
+    <div class="content">
+      <span class="tag">Certification Project</span>
+      <h2>AdventureWorks Dashboard</h2>
+      <p>
+        This dashboard was developed during my Power BI certification course. It demonstrates advanced report design,
+        navigation, interactions, and dashboard storytelling using the AdventureWorks dataset.
+      </p>
+      <ul>
+        <li>Bookmarks and navigation</li>
+        <li>Drill-through pages</li>
+        <li>Advanced slicers</li>
+        <li>Multi-card and KPI design</li>
+        <li>Professional dashboard layout</li>
+      </ul>
+      <div class="buttons">
+        <a href="AdventureWorks/AdventureWorks Dashboard.pbix">Download PBIX</a>
+      </div>
     </div>
+  </div>
 
-    <div class="card">
-        <img src="Electric-Metering/electric-metering.png">
-        <div class="title">Electrical Meter Monitoring</div>
-        <div class="desc">
-            Dashboard inspired by real-world systems to monitor energy, voltage, and efficiency.
-        </div>
+  <div class="project">
+    <img src="Electric-Metering/Electric_Meters_Health_Monitoring_System.png" alt="Electric Metering Dashboard">
+    <div class="content">
+      <span class="tag">Monitoring Dashboard</span>
+      <h2>Electric Metering Health Monitoring System</h2>
+      <p>
+        This dashboard provides a view of electrical system performance including energy consumption, voltage stability,
+        peak current, power factor, meter risk status, and communication health.
+      </p>
+      <p>
+        The layout was inspired by real-world industrial monitoring solutions, and the dataset was generated using AI tools
+        for simulation and portfolio demonstration purposes.
+      </p>
+      <ul>
+        <li>Energy consumption monitoring</li>
+        <li>Voltage and current trend analysis</li>
+        <li>Power factor and efficiency tracking</li>
+        <li>Meter risk and outage indicators</li>
+      </ul>
+      <div class="buttons">
+        <a href="Electric-Metering/Electricity Meters Monitoring Dashboard.pbix">Download PBIX</a>
+      </div>
     </div>
+  </div>
+
+  <div class="project">
+    <img src="Sales/Sales_Dashboard.png" alt="Sales Dashboard">
+    <div class="content">
+      <span class="tag">Sales Analysis</span>
+      <h2>Sales Performance Dashboard</h2>
+      <p>
+        This dashboard provides insights into sales performance, revenue trends, targets vs actuals, salesperson performance,
+        regional performance, and product-level analysis.
+      </p>
+      <ul>
+        <li>Sales vs target comparison</li>
+        <li>Monthly sales trend</li>
+        <li>Product and region analysis</li>
+        <li>Salesperson performance tracking</li>
+      </ul>
+      <div class="buttons">
+        <a href="Sales/Sales Dashboard.pbix">Download PBIX</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="project">
+    <img src="Utilities/Utilities_dashboard.png" alt="Utilities Dashboard">
+    <div class="content">
+      <span class="tag">Utilities Analysis</span>
+      <h2>Utilities Dashboard</h2>
+      <p>
+        This dashboard analyzes utility consumption across chilled water, electricity, gas, and water.
+        It compares actual usage with budget values to support performance monitoring and cost optimization.
+      </p>
+      <ul>
+        <li>Actual vs budget comparison</li>
+        <li>Monthly consumption tracking</li>
+        <li>Variance monitoring</li>
+        <li>Utility-wise breakdown</li>
+      </ul>
+      <div class="buttons">
+        <a href="Utilities/Utilities Dashboard.pbix">Download PBIX</a>
+      </div>
+    </div>
+  </div>
 
 </div>
+
+<footer>
+  <p>© 2026 Abdul Mateen | Power BI Portfolio</p>
+</footer>
 
 </body>
 </html>
