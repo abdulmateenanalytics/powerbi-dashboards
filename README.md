@@ -1,7 +1,7 @@
-# 📊 Sales Dashboard
+# 📊 Sales Performance Dashboard 
 
 ## Overview
-This Power BI dashboard shows revenue, profit, orders, return rate, product performance, and regional analysis.
+📌 This dashboard provides insights into sales performance, targets vs actuals, and regional trends.
 
 ## Preview
 ![Sales Dashboard](Sales_Dashboard.png)
